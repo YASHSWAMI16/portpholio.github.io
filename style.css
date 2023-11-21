@@ -1,0 +1,174 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+Font-family: xyz;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+/* background-color:rgba(0, 0, 0, 0.692); */
+color: rgb(0, 0, 0);
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* background-color: rgb(167, 109, 38); */
+}
+#sec1:before{
+    content: '';
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.3) 80%, #000 100%);
+    z-index: 100;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* text-shadow: 42px -24px  rgb(104, 143, 93);  */
+
+}
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+#me{
+    z-index: 10;
+}
+#sec2{
+    background-color: rgba(37, 21, 26, 0.803);
+    text-align: center;
+    padding: 100px 20%;
+    color: white;
+}
+#text{
+    position: relative;
+    color: rgb(193, 137, 137);
+    z-index: 2;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /* font-family: 'Caveat Brush', cursive; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+#justme{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 1.7rem;
+    align-items: center;
+    margin-top: 5rem;
+    display: flex;
+
+}
+/* .box{
+    height: 140px;
+    width: 100%;
+    border-radius: 10px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+} */
+.box1{
+    height: 180px;
+    width: 40%;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.7) 75%, #000 100%), url(IMG_E0284.JPG) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.box1 a{
+    margin-top: 190px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.box1:hover{
+    transform:translateY(12px);
+    transition: all .5s ease;
+    opacity: .6;
+}
+.box2{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.7) 75%, #000 100%), url(TZYF6496.JPG) center center no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 40%;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+
+}
+.box2 a{
+    margin-top: 190px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.box2:hover{
+    transform:translateY(12px);
+    transition: all .5s ease;
+    opacity: .6;
+}.box3{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.7) 75%, #000 100%), url(jaipur.jpg) center center no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 40%;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.box3 a{
+    margin-top: 190px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.box3:hover{
+    transform:translateY(12px);
+    transition: all .5s ease;
+    opacity: .6;
+}
+.last{
+    text-align: center;
+   margin-bottom: 20px;
+   background-color: rgba(37, 21, 26, 0.803);
+   padding: 20px;
+   
+
+}
+.last a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-bottom: 40px;
+    padding: 5px;
+    width: 180%;
+    height: 180%;
+     
+    
+}
+.last p{
+    text-align: end;
+}
+
